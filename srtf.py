@@ -10,7 +10,6 @@ for t in range(100):
             break
         elif proc[count][1] == t:
             ind = proc.index(proc[count])
-            print(ind)
             current.append(run[ind])
             arrival.pop(0)
     if len(current)==0:
