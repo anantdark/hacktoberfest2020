@@ -1,9 +1,6 @@
 pr = input('enter the processes').upper().split()
-#pr = ['P1', 'P2', 'P3']
 arrival = list(map(int, input('Enter the arrival time').split()))
-#arrival = [0, 4, 2]
 burst = list(map(int, input('Enter the burst time').split()))
-#burst = [8, 4, 5]
 run = [[pr[i], burst[i]] for i in range(len(pr))]
 proc = [[pr[i], arrival[i]] for i in range(len(pr))]
 current = []
@@ -16,6 +13,8 @@ for t in range(100):
             print(ind)
             current.append(run[ind])
             arrival.pop(0)
+    if len(current)==0:
+        continue
     burst = [i for i in burst if i!=0]
     if len(burst)!= 0:
         current.sort(key = lambda x: x[1])
