@@ -26,7 +26,7 @@ You can submit your code and learn to make your first pull request if you are ne
 
 ## Pull requests will be accepted at the earliest within 6 hrs.
 
-Checkout my profile and other repos checkout [my profile](https://github.com/anantdark "Anantdark")
+## **For more fun projects and collaboration, checkout [my profile](https://github.com/anantdark "Anantdark")**
 
 
 # HAPPY CODING
